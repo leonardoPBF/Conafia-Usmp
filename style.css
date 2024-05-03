@@ -383,6 +383,7 @@ body{
 }
 .single-widget .category li{
 	padding: 20px 10px;
+	color: white !important;
 }
 .single-widget .category .btn-gold{
 	background: #c7ad21 !important;
