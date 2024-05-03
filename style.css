@@ -374,7 +374,7 @@ body{
 	padding-left: 55px;
 }
 .single-widget .category{
-	color: white;
+	color: white !important;
 	display: flex;
 	text-align: center;
 	align-items: center;
