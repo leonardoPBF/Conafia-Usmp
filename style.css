@@ -5,6 +5,10 @@
     padding: 10px; /* Espacio alrededor de los enlaces */
     z-index: 1000; /* Para asegurarse de que la barra de navegación esté encima de otros elementos */
 }
+.nav{
+	justify-content: space-evenly !important;
+}
+
 :root{
 
 	
@@ -374,7 +378,6 @@ body{
 	padding-left: 55px;
 }
 .single-widget .category{
-	color: white !important;
 	display: flex;
 	text-align: center;
 	align-items: center;
@@ -383,16 +386,18 @@ body{
 }
 .single-widget .category li{
 	padding: 20px 10px;
-	color: white !important;
 }
 .single-widget .category .btn-gold{
 	background: #c7ad21 !important;
+	color: white !important;
 }
 .single-widget .category .btn-black{
 	background: #252424 !important;
+	color: white !important;
 }
 .single-widget .category .btn-silver{
 	background: #8998a7 !important;
+	color: white !important;
 }
 
 .single-widget .category li a{
@@ -922,6 +927,11 @@ body{
 /*=======================
 	Start Fun Facts CSS
 =========================*/
+.principalesexpositores .section{
+	margin-top: -160px !important;
+	
+}
+
 .fun-facts{
 	position:relative;
 }
@@ -4039,7 +4049,7 @@ body{
 	position:relative;
 }
 .footer .footer-top{
-	padding:100px 0px;
+	padding:70px 0px;
 	position:relative;
 	background:linear-gradient(0deg, rgba(40,65,26,1) 0%, rgba(85,213,40,1) 100%);
 }
